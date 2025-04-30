@@ -17,3 +17,7 @@ _note: without going into too much detail on the algorithms we've already noted 
 - The training data is what we feed to the model so that it can develop and learn. It is usually a much larger size than the testing data.
 - The testing data is what we use to evaulate the model and see how well it is performing. We must use a seperate set of data that the model has not been trained on to evaluate it.
 - Typically you'll use something like a 70-30 split of the total training data to split training and evaluation(testing) sets respectively. So if you have 1000 rows of data, 700 rows would be used to train, and the remaining 300 would be used for the eval/test set
+
+#### Categorical Data:
+
+- values like 'yes' or 'no' or in the Titanic exercise example, Class of the passenger 'First', 'Second' or 'Third' have to be encoded to an interger value for them to make any meaningful influence on the model
